@@ -1,0 +1,202 @@
+.header-container {
+    width: 100%;
+    color: #fff;
+}
+
+.header-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+}
+
+.header-item {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.header-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.header-text {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #EB4C6B;
+    letter-spacing: 1.3px;
+}
+
+.header-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.2% 0;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.header-title {
+    margin-left: 25%;
+    margin-right: 10%;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    align-items: center;
+}
+
+.header-icons i {
+    font-size: 23px;
+    color: #2A2E33;
+}
+
+.header-lang {
+    color: #2A2E33;
+    padding-bottom: 2px;
+}
+
+.header-lang-text {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 4.3%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4% 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.header-nav-item a {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.burgericon {
+    display: none;
+}
+
+.path {
+    display: none;
+}
+
+.path-item {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+
+    .remove-icon {
+        display: none;
+    }
+
+    .header-item {
+        display: none;
+    }
+
+    .header-item:first-child {
+        display: flex;
+        padding: 0.8%;
+    }
+
+    .header-main {
+        padding: 3.5% 0%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logoandburger {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -3%;
+    }
+
+    .burgericon {
+        display: block;
+        font-size: larger;
+        color: #000;
+    }
+
+    .header-logo {
+        width: 36%;
+        height: 36%;
+        margin-left: 10%;
+    }
+
+    .header-title {
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .header-icons {
+        margin-right: -4%;
+        gap: 12px;
+    }
+
+    .header-icons i {
+        font-size: 18px;
+        color: #292D32;
+    }
+
+    .header-nav {
+        padding: 0%;
+    }
+
+    .header-nav-item {
+        display: none;
+    }
+
+    .path {
+        padding: 4% 4.5%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .path-item {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .path-item-home{
+        color: silver;
+    }
+
+}
